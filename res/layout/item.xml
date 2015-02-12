@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+        >
+
+    <TextView
+            android:id="@+id/text_item_two_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:visibility="gone"
+            />
+
+    <TextView
+            android:id="@+id/text_item_two_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时间"
+            android:textSize="16sp"
+            android:textColor="#FFF"
+            />
+
+    <TextView
+            android:id="@+id/text_item_two_PMName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PM名字"
+            android:textSize="12sp"
+            android:layout_below="@id/text_item_two_time"
+            android:textColor="@color/color_title_text"
+            />
+
+
+    <TextView
+            android:id="@+id/text_item_two_number"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="练习数目"
+            android:textSize="16sp"
+            android:layout_alignParentRight="true"
+            android:textColor="#F00"
+            android:gravity="center_vertical"
+            />
+
+</RelativeLayout>

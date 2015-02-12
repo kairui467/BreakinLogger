@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <shape android:shape="rectangle"><!--圆角-->
+            <!--过渡色-->
+            <gradient android:startColor="#284405" android:centerColor="#4A8614" android:endColor="#5EAD20" android:angle="270"/>
+            <!--圆角样式-->
+            <corners android:radius="3dp"/>
+        </shape>
+    </item>
+
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <gradient android:startColor="#284405" android:centerColor="#4A8614" android:endColor="#5EAD20" android:angle="270"/>
+            <corners android:radius="3dp"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:startColor="#65B723" android:centerColor="#5C9F1B" android:endColor="#558914" android:angle="270"/>
+            <corners android:radius="3dp"/>
+        </shape>
+    </item>
+
+</selector>

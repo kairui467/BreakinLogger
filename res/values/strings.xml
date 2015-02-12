@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Breaking记录器</string>
+    <string name="personid">ID</string>
+
+    <!--MainActivity.class-->
+    <string name="about">关于</string>
+    <string name="about_developer">关于开发者</string>
+    <string name="update">更新</string>
+    <string name="exit">退出</string>
+
+    <string name="Yes">确定</string>
+    <string name="Cancel">取消</string>
+
+    <string name="NoData">无记录</string>
+    <string name="ConDelThisData">确认删除该条记录？</string>
+
+    <!--layout_main-->
+    <string name="back">返回</string>
+    <string name="add_data">添加记录</string>
+
+    <!--layout_add_data-->
+    <string name="time_select">时间选择：(可滑动)</string>
+    <string name="action_type">动作类型：</string>
+    <string name="exercise_num">练习次数：</string>
+    <string name="cut">-</string>
+    <string name="editText">0</string>
+    <string name="add">+</string>
+    <string name="save">保存</string>
+    <string name="setting">设置</string>
+
+    <!--layout_set_dlg-->
+    <string name="please">请输入大于0的数字：</string>
+    <string name="please_input">请输入数字</string>
+
+    <string name="about_content">本软件是根据《科学的练习PowerMove》系列视频而制作的软件！\n
+        科学的学习Flare（托马斯）网址：http://v.youku.com/v_show/id_XNTgzMTcyMDQ0.html \n
+        我本人也一直在用这款软件来记录每次练习的数量并统计！\n
+        现在已经能打出比较标准的一圈多托马斯了，
+        由于我是自学的安卓开发，所以第一个版本 Bug 还是较多（例如手机兼容性等），
+        但我会逐步的去优化程序，如果各位 B_boy and B_girl 有什么宝贵的意见可以提交到我的邮箱：
+        972908146@qq.com ，也可以联系我的企鹅:972908146（备注为：软件！尽量还是发到邮箱比较好）\n
+        遗言：再不练练我们就老了！</string>
+
+    <string name="updata_text">更新请到百度网盘：http://pan.baidu.com/s/1kT4uQdp#dir/path=%2FApk 下载更新</string>
+
+</resources>

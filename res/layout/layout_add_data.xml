@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="10dp"
+              android:background="@color/color_layout_bg"
+        >
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/time_select"
+            style="@style/style_title_text"
+            />
+
+    <HorizontalScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            style="@style/style_layout"
+            >
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+            <DatePicker
+                    android:id="@+id/datePicker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+            <TimePicker
+                    android:id="@+id/timePicker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/action_type"
+            style="@style/style_title_text"
+            />
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            style="@style/style_layout"
+            >
+
+        <Spinner
+                android:id="@+id/spinner_type"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:prompt="@string/action_type"
+                android:clickable="true"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@drawable/select_button_gre"
+                />
+
+        <Button
+                android:id="@+id/spinner_setButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/style_gre_button"
+                android:onClick="buttonOnClick"
+                android:text="@string/setting"
+                />
+    </LinearLayout>
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/exercise_num"
+            style="@style/style_title_text"
+            />
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            style="@style/style_layout"
+            android:layout_gravity="center_horizontal|bottom"
+            >
+
+        <Button
+                android:id="@+id/button_cut_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cut"
+                android:onClick="buttonOnClick"
+                style="@style/style_gre_button"
+                />
+
+        <EditText
+                android:id="@+id/editText_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="3"
+                android:text="@string/editText"
+                android:textColor="#FFF"
+                />
+
+        <Button
+                android:id="@+id/button_add_nubmer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add"
+                android:onClick="buttonOnClick"
+                style="@style/style_gre_button"
+                />
+
+        <Button
+                android:id="@+id/button_setting_addnumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/setting"
+                style="@style/style_gre_button"
+                />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            style="@style/style_btm_layout"
+            >
+
+        <Button
+                android:id="@+id/button_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/back"
+                android:onClick="buttonOnClick"
+                style="@style/style_red_button"
+                />
+
+        <Button
+                android:id="@+id/button_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save"
+                android:onClick="buttonOnClick"
+                android:layout_weight="1"
+                style="@style/style_red_button"
+                />
+
+    </LinearLayout>
+
+</LinearLayout>

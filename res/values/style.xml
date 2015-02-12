@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="theme_notitle">
+        <!-- 设置无标题-->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="style_layout">
+        <item name="android:background">@drawable/select_layout_bg</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <style name="style_btm_layout">
+        <item name="android:background">@color/color_layout_bg</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:gravity">bottom</item>
+    </style>
+
+    <style name="style_title_text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/color_title_text</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="style_listitem">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/color_text</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="style_gre_button">
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@drawable/select_button_gre</item>
+    </style>
+
+    <style name="style_red_button">
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:background">@drawable/select_button_red</item>
+    </style>
+</resources>

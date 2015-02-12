@@ -1,0 +1,182 @@
+com.example.BreakinLogger.activity.AddDataActivity -> com.example.BreakinLogger.activity.AddDataActivity:
+    com.example.BreakinLogger.service.PersonService mPersonService -> a
+    com.example.BreakinLogger.service.NameService mNameService -> b
+    android.content.Intent mIntent -> c
+    com.example.BreakinLogger.domain.Person person -> d
+    android.content.SharedPreferences sp -> e
+    android.content.SharedPreferences$Editor editor -> f
+    android.widget.DatePicker mDatePicker -> g
+    android.widget.TimePicker mTimePicker -> h
+    android.widget.Spinner mSpinner -> i
+    android.widget.EditText mEditText -> j
+    android.widget.Button cutButton -> k
+    android.widget.Button setButton -> l
+    android.widget.EditText setDlgEditText -> m
+    java.lang.String type -> n
+    int pm_id -> o
+    boolean isSuccee -> p
+    int setNumber -> q
+    java.lang.String UPDATE -> r
+    java.lang.String SAVE -> s
+    void onCreate(android.os.Bundle) -> onCreate
+    void onResume() -> onResume
+    void init() -> a
+    void initSP() -> b
+    void initWidgetSet() -> c
+    void addWidgetValue() -> d
+    java.lang.String isLessTen(int) -> a
+    java.lang.String isSucceed(boolean) -> a
+    void addNumberSp(int) -> b
+    void buttonOnClick(android.view.View) -> buttonOnClick
+    void closeActivity() -> e
+    int access$000(com.example.BreakinLogger.activity.AddDataActivity) -> a
+    android.widget.Button access$100(com.example.BreakinLogger.activity.AddDataActivity) -> b
+    android.widget.EditText access$202(com.example.BreakinLogger.activity.AddDataActivity,android.widget.EditText) -> a
+    android.widget.EditText access$200(com.example.BreakinLogger.activity.AddDataActivity) -> c
+com.example.BreakinLogger.activity.AddDataActivity$SetButtonListener -> com.example.BreakinLogger.activity.a:
+    com.example.BreakinLogger.activity.AddDataActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.example.BreakinLogger.activity.AddDataActivity$SetButtonListener$1 -> com.example.BreakinLogger.activity.b:
+    com.example.BreakinLogger.activity.AddDataActivity$SetButtonListener this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.example.BreakinLogger.activity.AddDataActivity$editTextChange -> com.example.BreakinLogger.activity.c:
+    com.example.BreakinLogger.activity.AddDataActivity this$0 -> a
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.example.BreakinLogger.activity.MainActivity -> com.example.BreakinLogger.activity.MainActivity:
+    android.database.Cursor mCursor -> a
+    com.example.BreakinLogger.service.PersonService mPersonService -> b
+    android.widget.SimpleCursorAdapter mSimpleCursorAdapter -> c
+    android.widget.ListView mListView1 -> d
+    android.widget.ListView mListView2 -> e
+    android.widget.TextView pm_id -> f
+    android.widget.TextView pm_time -> g
+    android.widget.TextView pm_name -> h
+    android.widget.TextView pm_number -> i
+    android.widget.Button readButon -> j
+    boolean isSuccee -> k
+    void onCreate(android.os.Bundle) -> onCreate
+    void onResume() -> onResume
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onDestroy() -> onDestroy
+    void onClick(android.view.View) -> onClick
+    java.lang.String isSucceed(boolean) -> a
+    void showData() -> e
+    void showList1() -> a
+    void showList2() -> b
+    void selectDlg() -> c
+    void deleteDlg() -> d
+    boolean access$002(com.example.BreakinLogger.activity.MainActivity,boolean) -> a
+    android.widget.TextView access$100(com.example.BreakinLogger.activity.MainActivity) -> a
+    com.example.BreakinLogger.service.PersonService access$200(com.example.BreakinLogger.activity.MainActivity) -> b
+    boolean access$000(com.example.BreakinLogger.activity.MainActivity) -> c
+    void access$300(com.example.BreakinLogger.activity.MainActivity) -> d
+    android.database.Cursor access$402(com.example.BreakinLogger.activity.MainActivity,android.database.Cursor) -> a
+    android.widget.SimpleCursorAdapter access$502(com.example.BreakinLogger.activity.MainActivity,android.widget.SimpleCursorAdapter) -> a
+    android.database.Cursor access$400(com.example.BreakinLogger.activity.MainActivity) -> e
+    android.widget.SimpleCursorAdapter access$500(com.example.BreakinLogger.activity.MainActivity) -> f
+    android.widget.ListView access$600(com.example.BreakinLogger.activity.MainActivity) -> g
+    android.widget.TextView access$102(com.example.BreakinLogger.activity.MainActivity,android.widget.TextView) -> a
+    android.widget.TextView access$702(com.example.BreakinLogger.activity.MainActivity,android.widget.TextView) -> b
+    android.widget.TextView access$802(com.example.BreakinLogger.activity.MainActivity,android.widget.TextView) -> c
+    android.widget.TextView access$902(com.example.BreakinLogger.activity.MainActivity,android.widget.TextView) -> d
+    android.widget.TextView access$700(com.example.BreakinLogger.activity.MainActivity) -> h
+    android.widget.TextView access$800(com.example.BreakinLogger.activity.MainActivity) -> i
+    android.widget.TextView access$900(com.example.BreakinLogger.activity.MainActivity) -> j
+com.example.BreakinLogger.activity.MainActivity$1 -> com.example.BreakinLogger.activity.d:
+    com.example.BreakinLogger.activity.MainActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.example.BreakinLogger.activity.MainActivity$dlgOnClickListener -> com.example.BreakinLogger.activity.e:
+    com.example.BreakinLogger.activity.MainActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.example.BreakinLogger.activity.MainActivity$list1ItemClick -> com.example.BreakinLogger.activity.f:
+    com.example.BreakinLogger.activity.MainActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.example.BreakinLogger.activity.MainActivity$list2ItemClick -> com.example.BreakinLogger.activity.g:
+    com.example.BreakinLogger.activity.MainActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.example.BreakinLogger.activity.MoreDateListActivity -> com.example.BreakinLogger.activity.MoreDateListActivity:
+    android.widget.SimpleCursorAdapter mSimpleCursorAdapter -> b
+    com.example.BreakinLogger.service.PersonService mPersonService -> c
+    android.widget.ListView mlistView -> d
+    android.widget.ProgressBar pg -> e
+    java.util.ArrayList list -> f
+    android.view.View moreView -> g
+    android.os.Handler handler -> h
+    int MaxDateNum -> i
+    int lastVisibleIndex -> j
+    java.lang.String TAG -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void init2() -> a
+    void loadMoreDate() -> b
+    void onScroll(android.widget.AbsListView,int,int,int) -> onScroll
+    void onScrollStateChanged(android.widget.AbsListView,int) -> onScrollStateChanged
+    void access$000(com.example.BreakinLogger.activity.MoreDateListActivity) -> a
+    android.widget.ProgressBar access$100(com.example.BreakinLogger.activity.MoreDateListActivity) -> b
+    android.widget.SimpleCursorAdapter access$200(com.example.BreakinLogger.activity.MoreDateListActivity) -> c
+    android.widget.ListView access$300(com.example.BreakinLogger.activity.MoreDateListActivity) -> d
+com.example.BreakinLogger.activity.MoreDateListActivity$1 -> com.example.BreakinLogger.activity.h:
+    com.example.BreakinLogger.activity.MoreDateListActivity this$0 -> a
+    void run() -> run
+com.example.BreakinLogger.activity.SetNameActivity -> com.example.BreakinLogger.activity.SetNameActivity:
+    com.example.BreakinLogger.service.NameService mNameService -> a
+    android.widget.SimpleCursorAdapter mSimpleCursorAdapter -> b
+    android.widget.Button mButton -> c
+    android.widget.EditText addEditText -> d
+    android.widget.ListView mListView -> e
+    android.widget.TextView mTextId -> f
+    android.widget.TextView mTextName -> g
+    java.lang.String result -> h
+    boolean isSuccee -> i
+    void onCreate(android.os.Bundle) -> onCreate
+    void spOnClick(android.view.View) -> spOnClick
+    void upDataList() -> a
+    java.lang.String isSucceed(boolean) -> a
+    android.widget.TextView access$002(com.example.BreakinLogger.activity.SetNameActivity,android.widget.TextView) -> a
+    android.widget.TextView access$102(com.example.BreakinLogger.activity.SetNameActivity,android.widget.TextView) -> b
+    boolean access$202(com.example.BreakinLogger.activity.SetNameActivity,boolean) -> a
+    android.widget.TextView access$000(com.example.BreakinLogger.activity.SetNameActivity) -> a
+    com.example.BreakinLogger.service.NameService access$300(com.example.BreakinLogger.activity.SetNameActivity) -> b
+    boolean access$200(com.example.BreakinLogger.activity.SetNameActivity) -> c
+    android.widget.TextView access$100(com.example.BreakinLogger.activity.SetNameActivity) -> d
+    android.widget.EditText access$400(com.example.BreakinLogger.activity.SetNameActivity) -> e
+    android.widget.Button access$500(com.example.BreakinLogger.activity.SetNameActivity) -> f
+com.example.BreakinLogger.activity.SetNameActivity$DlgListListener -> com.example.BreakinLogger.activity.i:
+    com.example.BreakinLogger.activity.SetNameActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.example.BreakinLogger.activity.SetNameActivity$ListItemListener -> com.example.BreakinLogger.activity.j:
+    com.example.BreakinLogger.activity.SetNameActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.example.BreakinLogger.domain.Person -> com.example.BreakinLogger.a.a:
+    java.lang.Integer id -> a
+    java.lang.String time -> b
+    java.lang.String PMName -> c
+    java.lang.Integer number -> d
+    java.lang.Integer getId() -> a
+    java.lang.String getTime() -> b
+    java.lang.String getPMName() -> c
+    java.lang.Integer getNumber() -> d
+com.example.BreakinLogger.service.DBOpenHelper -> com.example.BreakinLogger.b.a:
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+com.example.BreakinLogger.service.NameService -> com.example.BreakinLogger.b.b:
+    com.example.BreakinLogger.service.DBOpenHelper dbHelp -> a
+    void initAdd() -> d
+    boolean saveName(java.lang.String) -> a
+    boolean deleteName(int) -> a
+    boolean updateName(int,java.lang.String) -> a
+    android.database.Cursor getCursorData() -> a
+    java.util.List getListData() -> b
+    int getNameCount() -> c
+com.example.BreakinLogger.service.PersonService -> com.example.BreakinLogger.b.c:
+    com.example.BreakinLogger.service.DBOpenHelper dbHelp -> a
+    boolean save(com.example.BreakinLogger.domain.Person) -> a
+    boolean delete(java.lang.Integer) -> a
+    boolean update(com.example.BreakinLogger.domain.Person) -> b
+    android.database.Cursor getPMnum() -> a
+    android.database.Cursor getThisPMnum(java.lang.String) -> a
+    android.database.Cursor getCursorScrollData(int,int) -> a
+    long getCount() -> b
+    long getNameCount(java.lang.String) -> b
